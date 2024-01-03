@@ -1,0 +1,31 @@
+/* components/BackgroundInfo.module.css */
+.background {
+    position: relative;
+    height: 400px; /* Adjust height as needed */
+    background-image: url('https://sp.yimg.com/ib/th?&id=ODL.3c4ac07723236d1d5d8a7a6c7273c526&w=116&h=146&c=4&dpr=2&rs=1'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    width:100%;
+  }
+  
+  .info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgba(193, 235, 10, 0.6); /* Semi-transparent background */
+    border-radius: 5px;
+  }
+  
+  .info h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .info p {
+    font-size: 1.2em;
+  }
+  
